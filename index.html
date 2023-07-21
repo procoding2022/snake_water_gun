@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun</title>
+    <link rel="icon" href="./images/logo-b8f35c24.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="description" content="The following project is for playing snake water gun game with computer. You might have played stone paper scissors game in your school. This snake water gun game is same. Here snake can swim in water, water can defeat gun and gun will kill snake. It will be a 5 point match between you and computer. Just click on your choice and know the result.">
+    <meta name="keywords" content="sanke water gun game, javascript project">
+    <meta name="author" content="Anant Agarwal(procoding2022)">
+</head>
+<body>
+    <main class="absolute bg-[#064789] h-full w-full px-5">
+            <img src="./images/logo-removebg-preview-removebg-preview-602365bc.png" alt="Snake water gun" class="rounded-full w-80 block ml-auto mr-auto mt-5 sm:w-48 md:w-64 lg:w-80 xl:w-[28rem]">
+        <div class="flex space-x-5 mt-14 xl:space-x-56 justify-center xl:mt-16">
+            <div>
+                <img src="./images/snake-044c9409.png" alt="" id="snake" class="cursor-pointer w-52">
+            </div>
+            <div>
+                <img src="./images/water-969d11c1.png" alt="" id="water" class="cursor-pointer w-52">
+            </div>
+            <div>
+                <img src="./images/gun-df2e898c.png" alt="" id="gun" class="cursor-pointer w-60 mt-7">
+            </div>
+        </div>
+        <div class="bg-[#427AA1] rounded-full border-none cursor-not-allowed select-none mt-10">
+            <div class="flex space-x-10 xl:space-x-20 justify-center xl:mt-16 text-[#EBF2FA] font-bold xl:text-2xl">
+                <div>
+                    <a class="cursor-not-allowed" id="yourname">YOUR NAME</a>
+                </div>
+                <div>
+                    <a class="cursor-not-allowed">COMPUTER</a>
+                </div>
+            </div>
+            <hr class="w-60 mt-2 xl:w-96 h-1 mx-auto xl:my-4 bg-[#A5BE00] border-0 rounded">
+            <div class="flex space-x-24 xl:space-x-44 justify-center text-[#EBF2FA] font-bold xl:text-2xl">
+                <div>
+                    <a class="cursor-not-allowed" id="playerscore">0</a>
+                </div>
+                <div>
+                    <a class="cursor-not-allowed" id="computerscore">0</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-right xl:mr-10">
+            <input type="button" id="reset" value="Reset" class="px-10 py-2 mt-4 bg-white font-mono text-lg rounded-full hover:cursor-pointer hover:bg-red-600 hover:text-white hover:transition-all hover:duration-700 focus:bg-red-600 focus:text-white focus:transition-all active:bg-red-600 active:text-white active:transition-all active:duration-700 xl:px-20 xl:py-3 xl:text-xl xl:mt-3">
+        </h2>
+    </main>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
